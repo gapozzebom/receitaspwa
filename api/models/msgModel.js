@@ -16,6 +16,11 @@ var msgSchema = new Schema({
       type: String
 
    },
+   img: {
+
+      type: String
+
+   },
 
    Created_date: {
 
