@@ -2,6 +2,8 @@ var express = require('express'),
 
 app = express(),
 
+app.use(cors()),
+
 port = process.env.PORT || 3000,
 
 mongoose = require('mongoose'),
